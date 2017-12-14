@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    font-size: 13px;
+    line-height: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+    font-weight: 600;
+}
+.heroes-list{
+    list-style: none;
+    padding-left: 0;
+}
+.heroes-list >li{
+    display: block;
+    max-width: 150px;
+    background-color: #f5f5f5;
+    border-radius: 2px;
+    padding: 5px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+.heroes-list >li span{
+    background-color: #333;
+    color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 2px 5px;
+    border-radius: 2px;
+    margin-right: 5px;
+    margin-top: -3px;
+}
