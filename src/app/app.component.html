@@ -1,3 +1,10 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <h3>{{title}}</h3>
-<app-heroes></app-heroes>
+<nav>
+    <ul class="nav nav-pills">
+      <li routerLinkActive="active"><a routerLink="/heroes">Heroes</a></li>
+      <li routerLinkActive="active"><a routerLink="/dashboard">Dashboard</a></li>
+    </ul>
+</nav>
+ 
+<router-outlet></router-outlet>
